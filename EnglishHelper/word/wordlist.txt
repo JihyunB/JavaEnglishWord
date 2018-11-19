@@ -1,0 +1,450 @@
+1/environment/환경
+1/company/회사
+1/government/정부, 정치
+1/face/얼굴
+1/race/경주, 인종
+1/plant/식물, 식물을 심다
+1/fire/화재, 발사하다
+1/matter/문제, 중요하다
+1/state/상태, 국가, 말하다
+1/cause/원인, 야기하다
+1/reason/이유, 이성, 
+1/concern/걱정, 관련되다
+1/bear/곰, 참다, 낳다
+1/raise/들어올리다, 모금하다
+1/subject/주제. 과목
+2/planet/행성, 지구
+2/article/기사. 물품
+2/education/교육
+2/purpose/목적, 의도
+2/arm/무기, 무장하다
+2/object/물체. 대상
+2/amount/양
+2/rest/나머지, 휴식(하다)
+2/process/과정, 처리하다
+2/research/연구, 연구하다.
+2/respect/존경(하다). 관점
+2/influence/영향(력), (을 미치다).
+2/deal/거래, 처리(하다)
+2/notice/알아차리다, 공고
+2/support/지지(하다),부양(하다)
+3/generation/세대
+3/population/인구
+3/industry/산업, 근면
+3/career/경력, 직업
+3/opportunity/기회
+3/behavior/태도
+3/reality/현실
+3/tear/눈물, 찢다
+3/issue/문제, 발행(하다)
+3/detail/세부사항, 자세히 열거하다
+3/limit/한계, 제한하다
+3/challenge/도전(하다)
+3/advance/진보(하다)
+3/benefit/이익(을 주다)
+3/cure/치료(하다)
+4/expert/전문가
+4/species/(생물의) 종
+4/appearance/외모, 출현
+4/character/성격, 특징, 글자
+4/quality/자질(특성)
+4/resource/자원
+4/method/(조직적인) 방법 (방식)
+4/movement/이동, 움직임
+4/instance/예, 경우
+4/variety/다양성
+4/match/성냥, 경기(하다)
+4/figure/치수, 형태, 이해하다
+4/stick/막대기, 찌르다, 붙이다
+4/beat/이기다, 때리다, 고동
+4/approach/접근(하다) 
+5/Freedom/자유
+5/tradition/전통
+5/adventure/모험
+5/crime/범죄
+5/aspect/면(일면) 
+5/solution/해결(책) 
+5/account/계산, 설명하다
+5/block/막다,구획
+5/range/범위,-에 걸쳐지다
+5/demage/손해, 손상
+5/supply/공급(하다)
+5/demand/요구(하다)
+5/lie/거짓말 하다,눕다
+5/spread/확산, 퍼지다.
+5/feed/먹이다
+6/youth/젊음
+6/soil/흑 (토양)
+6/equipment/설비, 장비
+6/term/용어, 기간, 조건
+6/advantage/유리한 점
+6/board/판, 타다
+6/fuel/연료(를 공급하다)
+6/chat/농담(하다)
+6/trick/속임수, 속이다
+6/attack/공격(하다)
+6/attempt/시도, 시도하다.
+6/exchange/교환, 주고받다.
+6/hide/숨기다, 가죽
+6/gain/얻다, 이익
+6/exist/존재하다. 있다.
+7/organism/유기체 (생물)
+7/emotion/감정
+7/belief/믿음, 신념
+7/economy/경제. 절약
+7/discovery/발견
+7/rate/비율, 속도
+7/suit/정장, 적합하다
+7/court/법정, 경기장
+7/pressure/압력, 
+7/risk/위험(을 무릅쓰다)
+7/progress/진보, 전진
+7/escape/도망,
+7/measure/재다. 조치
+7/decrease/감소
+7/seek/추구하다, 찾다
+8/humanity/인류, 인간성
+8/enemy/적
+8/grain/곡물.
+8/surface/표면
+8/sickness/병
+8/possibility/가능성
+8/crisis/위기
+8/strategy/전략
+8/custom/관습, 습관 
+8/origin/기원, 출신
+8/introduction/도입
+8/trust/신뢰(하다)
+8/credit/신용. 믿다
+8/mention/언급, 언급하다.
+8/handle/다루다
+9/element/요소, 원소
+9/entertainment/오락, 대접
+9/imagination/상상
+9/failure/실패
+9/mine/광산, 채굴하다
+9/export/수출, 수출하다.
+9/award/상, 상을 받다
+9/battle/전투, 다툼,
+9/discipline/훈련(하다)
+9/sort/종류, 분류하다.
+9/feature/특징. 중요역할을 하다
+9/lack/부족, 결핍되다.
+9/desire/욕구, 바라다.
+9/regret/후회하다
+9/freeze/얼(리)다.
+10/intelligence/지능
+10/insect/곤충
+10/automobile/자동차
+10/region/지역
+10/climate/기후
+10/protection/보호
+10/factor/요인
+10/principle/원칙
+10/theory/이론, 학설
+10/labor/노동, 노동자
+10/function/기능, 기능을 하다.
+10/access/접근(하다)
+10/alarm/놀라게 하다
+10/struggle/투쟁, 분투
+10/prove/증명하다
+11/author/저자
+11/client/의뢰인
+11/victim/희생자
+11/disaster/재해
+11/muscle/근육
+11/instrument/악기, 기구
+11/sculpture/조각(품)
+11/impact/효과, 영향
+11/popularity/인기, 대중성
+11/mystery/불가사의
+11/spot/장서. 지점, 찾아내다
+11/broadcast/방송, 방송하다
+11/praise/칭찬하다
+11/link/연결하다
+11/steal/훔치다
+12/mankind/인류
+12/ancestor/조상
+12/tongue/혀
+12/vocabulary/어휘
+12/section/부분
+12/mission/임무
+12/row/줄, 노(를 젓다)
+12/reward/보상(을 하다)
+12/wound/상처, 
+12/survey/조사, 조사하다.
+12/contrast/대조(하다)
+12/conduct/임무(를 수행하다)
+12/stretch/잡아 늘이다, 뻗기
+12/release/풀어주다, 석방
+12/rescue/구조, 구조하다.
+13/addict/중독자
+13/soul/영혼
+13/personality/개성, 성격
+13/novel/소설
+13/passage/문장, 통로, 경로
+13/concept/개념
+13/scale/저울, 규모, 등급
+13/agenda/의제,
+13/explanation/설명
+13/revolution/혁명
+13/weapon/무기
+13/patience/인내심
+13/fund/자금(을 제공하다)
+13/witness/증인, 목격하다
+13/stare/빤히 보다.
+14/vehicle/탈것
+14/atmosphere/대기, 분위기
+14/basis/기초
+14/edge/가장자리
+14/therapy/치료(법)
+14/insurance/보험, 보장
+14/decade/10년
+14/delight/기쁨, 기쁘게 하다.
+14/charge/요금, 책임(을 지다)
+14/aim/목표(을 정하다), 
+14/request/요청, 요청하다.
+14/comment/논평(하다)
+14/debate/토론, 토론하다.
+14/defeat/패배(시키다)
+14/strike/치다, 파업(을 하다)
+15/astronaut/우주비행사
+15/genius/천재(영재)
+15/charity/자선, 자선단체
+15/prison/감옥(교도소)
+15/series/시리즈(연속물)
+15/appointment/약속, 임명
+15/track/좁은 길, 추적하다
+15/code/법, 암호(화 하다)
+15/lecture/강의, 강의하다.
+15/aid/도움, 돕다(원조하다)
+15/harm/손해, 해치다.
+15/prejudice/편견(을 가지다)
+15/transfer/옮기다, 이동
+15/fascinate/매혹하다.
+15/frustrate/좌절시키다
+16/identity/신원, 정체성
+16/substance/물질
+16/physics/물리학
+16/motion/운동,동작
+16/laboratory/실험(실)
+16/conclusion/결론
+16/phrase/(어)구
+16/excitement/흥분
+16/miracle/기적
+16/threat/위협
+16/harvest/수확. 수확하다
+16/review/검토, 복습(하다)
+16/grab/잡아채기, 잡아채다.
+16/puzzle/퍼즐, 혼란시키다
+16/claim/주장(하다), 요구(하다)
+17/leisure/여가
+17/literature/문학
+17/privacy/사생활
+17/duty/임무, 세금
+17/poverty/가난
+17/policy/정책
+17/improvement/개선
+17/expectation/기대
+17/fantasy/환상, 공상영화
+17/destruction/파괴
+17/comfort/편안함, 위로(하다)
+17/regard/여기다, 간주하다, 존경
+17/swing/흔들리다
+17/manufacture/제조, 제조하다.
+17/misunderstand/오해하다.
+18/companion/친구
+18/destination/목적지
+18/aptitude/소질
+18/statue/지위, 신분
+18/means/수단, 재산
+18/religion/종교
+18/column/칼럼, 기둥
+18/carbon dioxide/이산화탄소
+18/shelter/머무르다, 거주지
+18/profit/이익, 
+18/poison/독 중독시키다
+18/anger/화, 
+18/thrill/흥분(시키다)
+18/conflict/갈등, 대립하다
+18/rent/빌리다, 집세
+19/freshman/신입생
+19/facility/시설, 재능
+19/peninsular/반도
+19/oxygen/산소
+19/layer/층
+19/explosion/폭팔
+19/pace/속도, 한 걸음
+19/incident/사건 사고
+19/photography/사진술
+19/make-up/화장, 구성
+19/guard/경비원, 지키다
+19/dust/먼지, 먼지를 털다.
+19/sacrifice/희생(하다)
+19/purchase/구입, 사다.
+19/construct/구조물, 건축하다
+20/conductor/지휘자, 전도체
+20/wildlife/야생동물
+20/summit/정상
+20/horizon/지평선, 수평선
+20/clue/실마리
+20/assignment/과제, 할당
+20/faith/믿음
+20/hunger/굶주림
+20/trend/유행,경향
+20/fault/잘못, 결함
+20/bomb/폭탄
+20/institute/연구소, 시작하다
+20/display/전시(하다)
+20/glance/힐끗보다
+20/reserve/예약하다, 비축
+21/scholar/학자
+21/palm/야자, 손바닥
+21/horn/뿔, 경적
+21/arrow/화살
+21/device/장치
+21/mixture/혼합물
+21/highway/고속도로
+21/habitat/서식지, 거주지
+21/agriculture/농업, 농학
+21/civilization/문명
+21/gravity/중력
+21/context/문맥, 맥락
+21/protest/항의, 항의하다.
+21/sink/싱크대. 가라앉다
+21/swallow/제비, 삼키다
+22/pole/기둥, 극
+22/raft/뗏목
+22/fare/운임
+22/quantity/양, 수량
+22/authority/권위, 정부 당국
+22/judgement/판단, 심판
+22/statement/성명(진술)서
+22/tension/긴장
+22/seal/봉하다 바다표범
+22/sum/총계, 요약하다
+22/panic/공황, 공포
+22/trail/흔적 질질 끌다
+22/exhibit/전시회(하다)
+22/grant/인정, 승인(하다)
+22/guarantee/보장(하다)
+23/belonging/소유물, 소속
+23/evidence/증거
+23/fossil/화석
+23/biology/생물학
+23/semester/학기
+23/anxiety/걱정, 열망
+23/shame/수치, 유감
+23/famine/기근
+23/bar/막대, 
+23/ease/쉬움, 편함, 완화하다
+23/suicide/자살, 자살하다.
+23/shoot/쏘다. 촬영하다
+23/transport/운송, 운송하다, 이동하다
+23/estimate/어림잡다, 견적
+23/lay/눕히다, 알을 낳다
+24/globe/지구, 구
+24/shadow/그림자
+24/majority/다수, 과반수
+24/association/협회, 관련
+24/journal/잡지, 일기
+24/chore/허드렛일, 
+24/procedure/절차
+24/shortage/부족
+24/intention/의도
+24/violence/폭력
+24/string/끈, 실을 꿰다
+24/border/국경선, 인접하다
+24/dump/쓰레기장, 버리다
+24/encounter/만남, 조우하다
+24/neglect/소홀히 하다, 소홀
+25/ambassador/대사
+25/dirt/먼지, 때
+25/property/재산, 특성
+25/income/수입
+25/category/범주
+25/circumstance/상황
+25/equality/평등
+25/election/선거
+25/extinction/멸종
+25/remark/발언, 말하다
+25/deposit/은행에 맡기다
+25/cycle/순환(하다)
+25/chase/뒤쫓다, 추구
+25/ruin/망치다, 파산, 폐허
+25/forgive/용서하다
+26/priest/성직자
+26/organ/장기, 오르간
+26/telescope/망원경
+26/sword/칼
+26/welfare/복지
+26/tourism/관광 사업
+26/tone/어조, 음조, 색조
+26/theme/주제
+26/preparation/준비
+26/junk/폐물고물, 내버리다
+26/whistle/호각, 휘파람을 불다
+26/orbit/궤도(를 돌다)
+26/stare/응시, 응시하다.
+26/forbid/금지하다
+26/permit/허락하다.
+27/crew/승무원
+27/expense/비용
+27/era/시대
+27/emission/배기, 방사
+27/disorder/질환
+27/conference/회의
+27/clay/점토
+27/channel/채널, 경로
+27/statistics/통계(학)
+27/command/명령(하다)
+27/pose/제기하다, 
+27/arrest/체포, 체포하다.
+27/leap/뛰다, 도약
+27/slap/손바닥으로 때리다
+27/punish/처벌하다.
+28/bush/관목
+28/ash/재
+28/agency/대행사
+28/document/문서
+28/tax/세금
+28/trial/재판, 시도
+28/occasion/경우, 행사
+28/capacity/수용력, 능력
+28/iron/철, 다리미(질 하다)
+28/stuff/물건
+28/import/수입, 수입하다.
+28/venture/모험(을 하다)
+28/cast/던지다, 배역9을 하다)
+28/dislike/싫어하다, 혐오
+28/adjust/적용하다, 조정하다
+29/union/연합
+29/pottery/도기
+29/remains/유적
+29/surgery/외과의사
+29/philosophy/철학
+29/myth/신화
+29/stock/주식
+29/pile/더미, 쌓다
+29/trap/덫, 가두다
+29/shade/그늘
+29/turn/곡조, 음조
+29/resort/휴양지
+29/vacuum/진공(청소기)
+29/dye/물들이다
+29/drag/끌다
+30/supreme/최고의
+30/mechanical/기계의
+30/miserable/비참한
+30/bitter/쓴, 지독한
+30/promising/유망한
+30/sensible/분별력 있는
+30/lively/활기찬
+30/liquid/액체(의)
+30/infect/감염시키다
+30/terrify/겁나게 하다
+30/scold/비난하다
+30/strengthen/강화하다
+30/skip/건너뛰다
+30/tug/빨리 끌어당기다
+30/clap/손뼉을 치다
