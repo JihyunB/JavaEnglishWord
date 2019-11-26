@@ -19,7 +19,7 @@ import javax.swing.SortOrder;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
-
+//
 public class main_menu extends JFrame {
 
 	private JPanel contentPane;
@@ -116,7 +116,7 @@ public class main_menu extends JFrame {
 
 		//study
 		btnNewButton.addActionListener(e->{
-			JButton button_3 = new JButton("µÚ·Î°¡±â");
+			JButton button_3 = new JButton("ë’¤ë¡œê°€ê¸°");
 			button_3.setBounds(30, 30, 150, 40);
 			studyPanel.add(button_3);
 			panel.setVisible(false);
@@ -142,7 +142,7 @@ public class main_menu extends JFrame {
 			JLabel nowLabel = new JLabel();
 			JLabel rigLabel = new JLabel();
 			JLabel info = new JLabel();
-			info.setText("Test¸¦ ³¡±îÁö ÁøÇàÇÏ½Ã¸é »ç¿ëÀÚ ÀÌ¸§ ÀÔ·ÂÃ¢ÀÌ ³ª¿É´Ï´Ù.");
+			info.setText("Testë¥¼ ëê¹Œì§€ ì§„í–‰í•˜ì‹œë©´ ì‚¬ìš©ì ì´ë¦„ ì…ë ¥ì°½ì´ ë‚˜ì˜µë‹ˆë‹¤.");
 			info.setFont(new Font("Serif", Font.PLAIN, 13));
 			info.setBounds(300, 50, 400, 30);
 			testpanel.add(info);
@@ -165,7 +165,7 @@ public class main_menu extends JFrame {
 			testpanel.setVisible(true);
 			String day = null;
 			test = new Test();
-			day = JOptionPane.showInputDialog("½ÃÇèÀ» º¼ ÀÏÂ÷(Day)¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.(1~"+word.getLastDay()+")");
+			day = JOptionPane.showInputDialog("ì‹œí—˜ì„ ë³¼ ì¼ì°¨(Day)ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.(1~"+word.getLastDay()+")");
 			int d = Integer.valueOf(day);
 	
 			tKorean = new String[word.getNumOfWord(d)];
@@ -178,9 +178,9 @@ public class main_menu extends JFrame {
 			String word1 = tKorean[i];
 			JLabel wordTestLabel = new JLabel();
 			
-			netLabel.setText("ÃÑ ¹®Á¦ ¼ö: " + Integer.toString(numOfWord));
-			nowLabel.setText("ÇöÀç ¹®Á¦ : 1");
-			rigLabel.setText("¸ÂÈù °³¼ö : 0");
+			netLabel.setText("ì´ ë¬¸ì œ ìˆ˜: " + Integer.toString(numOfWord));
+			nowLabel.setText("í˜„ì¬ ë¬¸ì œ : 1");
+			rigLabel.setText("ë§íŒ ê°œìˆ˜ : 0");
 			wordTestLabel.setText(word1);
 			wordTestLabel.updateUI();
 			wordTestLabel.setBounds(500, 200, 300, 100);
@@ -197,15 +197,15 @@ public class main_menu extends JFrame {
 			checkWord.addActionListener(e2->{
 					test.checkWord(checkWord.getText(),tEnglish[i]);
 					i++;
-					nowLabel.setText("ÇöÀç ¹®Á¦ : " + Integer.toString(i+1));
-					rigLabel.setText("¸ÂÈù °³¼ö : " + Integer.toString(test.getRight()));
+					nowLabel.setText("í˜„ì¬ ë¬¸ì œ : " + Integer.toString(i+1));
+					rigLabel.setText("ë§íŒ ê°œìˆ˜ : " + Integer.toString(test.getRight()));
 					checkWord.setText("");
 					if(i<numOfWord) {
 					wordTestLabel.setText(tKorean[i]);
 					}
 					if(test.getCounter()==numOfWord) {
 						String resultStr = null;
-						resultStr = JOptionPane.showInputDialog("ÀÌ¸§À» ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+						resultStr = JOptionPane.showInputDialog("ì´ë¦„ì„ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 						User user = new User(resultStr,d,test.getRight(),numOfWord,test.getAccuracy());	
 						this.hide();
 						main_menu frm = new main_menu();
@@ -213,7 +213,7 @@ public class main_menu extends JFrame {
 					}
 			});
 			
-			JButton button_4 = new JButton("µÚ·Î°¡±â");
+			JButton button_4 = new JButton("ë’¤ë¡œê°€ê¸°");
 			testpanel.add(button_4);
 			button_4.setBounds(30, 30, 150, 40);
 			button_4.addActionListener(e3->{
@@ -225,7 +225,7 @@ public class main_menu extends JFrame {
 		
 		//wordmanager
 		button_1.addActionListener(e->{
-			JButton button_5 = new JButton("µÚ·Î°¡±â");
+			JButton button_5 = new JButton("ë’¤ë¡œê°€ê¸°");
 			button_5.setBounds(30, 30, 150, 40);
 			managerPanel.add(button_5);
 			JPanel inputPanel = new JPanel();
@@ -238,7 +238,7 @@ public class main_menu extends JFrame {
 			JLabel korInputLabel = new JLabel();
 			JLabel dayInputLabel = new JLabel();
 			JLabel InputLabel = new JLabel();
-			JButton inputButton = new JButton("ÀÔ·Â");
+			JButton inputButton = new JButton("ì…ë ¥");
 			inputPanel.add(engInput);
 			inputPanel.add(korInput);
 			inputPanel.add(dayInput);
@@ -250,7 +250,7 @@ public class main_menu extends JFrame {
 			
 			managerPanel.add(inputPanel);
 			JLabel info = new JLabel();
-			info.setText("ÀÔ·Â °á°ú´Â Word Manager¸¦ »õ·Î ½ÇÇà½Ã È®ÀÎ °¡´ÉÇÕ´Ï´Ù.");
+			info.setText("ì…ë ¥ ê²°ê³¼ëŠ” Word Managerë¥¼ ìƒˆë¡œ ì‹¤í–‰ì‹œ í™•ì¸ ê°€ëŠ¥í•©ë‹ˆë‹¤.");
 			info.setFont(new Font("Serif", Font.PLAIN, 13));
 			info.setBounds(500, 150, 400, 30);
 			
@@ -269,10 +269,10 @@ public class main_menu extends JFrame {
 			managerPanel.add(info);
 			managerPanel.add(sc2);
 			
-			engInputLabel.setText("¿µ¾î");
-			korInputLabel.setText("ÇÑ±Û");
-			dayInputLabel.setText("ÀÏÂ÷");
-			InputLabel.setText("´Ü¾îÃß°¡");
+			engInputLabel.setText("ì˜ì–´");
+			korInputLabel.setText("í•œê¸€");
+			dayInputLabel.setText("ì¼ì°¨");
+			InputLabel.setText("ë‹¨ì–´ì¶”ê°€");
 			engInputLabel.setBounds(10, 110, 30, 30);
 			korInputLabel.setBounds(10, 160, 30, 30);
 			InputLabel.setBounds(100, 10, 100, 30);
@@ -296,7 +296,7 @@ public class main_menu extends JFrame {
 		//rank
 		button_2.addActionListener(e->{
 			JLabel info = new JLabel();
-			info.setText("Rank´Â Test°¡ ¿Ï·áµÇ¾î »õ·Î¿î ±â·ÏÀÌ ¹ß»ıÇÏ¸é °»½ÅµË´Ï´Ù.");
+			info.setText("RankëŠ” Testê°€ ì™„ë£Œë˜ì–´ ìƒˆë¡œìš´ ê¸°ë¡ì´ ë°œìƒí•˜ë©´ ê°±ì‹ ë©ë‹ˆë‹¤.");
 			info.setFont(new Font("Serif", Font.PLAIN, 13));
 			info.setBounds(300, 50, 400, 30);
 			rankPanel.add(info);
@@ -318,7 +318,7 @@ public class main_menu extends JFrame {
 			sc3.setBounds(350, 100, 500, 500);
 			rankPanel.add(sc3);
 
-			JButton button_6 = new JButton("µÚ·Î°¡±â");
+			JButton button_6 = new JButton("ë’¤ë¡œê°€ê¸°");
 			button_6.setBounds(30, 30, 150, 40);
 			rankPanel.add(button_6);
 			
