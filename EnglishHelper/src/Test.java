@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-
+//시험기능
 public class Test{
 	int r;
 	int counter = 0;
@@ -38,11 +38,11 @@ public class Test{
 		if(s.equalsIgnoreCase(d)) {
 			counter++;
 			good++;		
-			JOptionPane.showMessageDialog(null, "�����Դϴ�.");
+			JOptionPane.showMessageDialog(null, "Á¤´äÀÔ´Ï´Ù.");
 		}
 		else {
 			counter++;
-			JOptionPane.showMessageDialog(null, "�����Դϴ�.");
+			JOptionPane.showMessageDialog(null, "¿À´äÀÔ´Ï´Ù.");
 		}
 	}
 	
