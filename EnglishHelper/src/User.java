@@ -7,7 +7,7 @@ import java.io.IOException;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
-
+//ì‚¬ìš©ì 
 public class User{
 	DefaultTableModel model;
 	JScrollPane scrollpane;
@@ -93,7 +93,7 @@ public class User{
 			try {
 			JTable jtable1 = new JTable();
 			BufferedReader br = new BufferedReader(new FileReader(file));
-			String firstLine = "¼øÀ§/ÀÌ¸§/ÀÏÂ÷/¸ÂÈù °³¼ö/ÃÑ ¹®Á¦ ¼ö/Á¤´ä·ü";
+			String firstLine = "ìˆœìœ„/ì´ë¦„/ì¼ì°¨/ë§íŒ ê°œìˆ˜/ì´ ë¬¸ì œ ìˆ˜/ì •ë‹µë¥ ";
 			String[] columnsName = firstLine.split("/");
 			model = (DefaultTableModel)jtable1.getModel();
 			model.setColumnIdentifiers(columnsName);
