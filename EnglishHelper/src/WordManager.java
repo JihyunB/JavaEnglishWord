@@ -3,7 +3,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 import javax.swing.JOptionPane;
-
+//ë‹¨ì–´ ê´€ë¦¬ 
 public class WordManager {
 	public void WordAdd(String day,String eng, String kor) {
 		String message = "\n" + day + "/" + eng + "/" + kor;
@@ -24,11 +24,11 @@ public class WordManager {
 	
 	public void nullCheck(String day,String eng, String kor) {
 		if(day.equalsIgnoreCase("")||eng.equalsIgnoreCase("")||kor.equalsIgnoreCase("")) {
-			JOptionPane.showMessageDialog(null, "³¯Â¥,¿µ¾î,ÇÑ±Û ¶æ ¸ğµÎ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+			JOptionPane.showMessageDialog(null, "ë‚ ì§œ,ì˜ì–´,í•œê¸€ ëœ» ëª¨ë‘ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 		}
 		else
 			{WordAdd(day,eng,kor);
-			JOptionPane.showMessageDialog(null, "Ãß°¡ µÇ¾ú½À´Ï´Ù.");
+			JOptionPane.showMessageDialog(null, "ì¶”ê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.");
 			}
 	}
 }
