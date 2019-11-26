@@ -5,7 +5,7 @@ import java.io.IOException;
 
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
-
+//출력을 위한 표 
 public class showTable{
 	DefaultTableModel model;
 	JTable jtable;
@@ -20,7 +20,7 @@ public class showTable{
 			try {
 			JTable jtable1 = new JTable();
 			BufferedReader br = new BufferedReader(new FileReader(file));
-			String firstLine = "��¥/����/�ѱ�";
+			String firstLine = "³¯Â¥/¿µ¾î/ÇÑ±Û";
 			String[] columnsName = firstLine.split("/");
 			model = (DefaultTableModel)jtable1.getModel();
 			model.setColumnIdentifiers(columnsName);
