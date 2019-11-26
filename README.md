@@ -14,4 +14,4 @@ EnglishHelper/word
 갱신됩니다. 이는 User.java에 구현되어 있습니다.
 
 EnglishHelper/images
-GUI 구현에 사용 된 이미지들이 저장되어 있습니다.
+GUI 구현에 사용  이미지들이 저장되어 있습니다.
