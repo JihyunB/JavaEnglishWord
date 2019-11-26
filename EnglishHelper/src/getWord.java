@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-
+//파일 
 public class getWord{
 	String[] korean = new String[1000];
 	String[] english = new String[1000];
