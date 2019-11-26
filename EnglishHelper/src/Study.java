@@ -6,7 +6,7 @@ import java.io.IOException;
 import javax.swing.JOptionPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
-
+//
 public class Study{
 	DefaultTableModel model;
 	JTable jtable;
@@ -27,14 +27,14 @@ public class Study{
 				
 			JTable jtable1 = new JTable();
 			BufferedReader br = new BufferedReader(new FileReader(file));
-			String firstLine = "³¯Â¥/¿µ¾î/ÇÑ±Û";
+			String firstLine = "ë‚ ì§œ/ì˜ì–´/í•œê¸€";
 			String[] columnsName = firstLine.split("/");
 			model = (DefaultTableModel)jtable1.getModel();
 			model.setColumnIdentifiers(columnsName);
 			
 			Object[] tableLines = br.lines().toArray();
 			String resultStr = null;
-			resultStr = JOptionPane.showInputDialog("ÇĞ½ÀÇÒ ³¯Â¥¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä(1~"+word.getLastDay()+")");
+			resultStr = JOptionPane.showInputDialog("í•™ìŠµí•  ë‚ ì§œë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”(1~"+word.getLastDay()+")");
 			
 			for(int i = 0; i<tableLines.length;i++) {
 				String line = tableLines[i].toString().trim();
